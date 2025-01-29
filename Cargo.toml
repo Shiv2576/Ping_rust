@@ -1,0 +1,16 @@
+[package]
+name = "ping_icmp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lazy_static = "1.4.0"
+structopt = "0.3.13"
+log = "0.4"
+env_logger = "0.7"
+pnet = "0.35.0"
+pnet_macros_support = "0.35.0"
+rand = "0.7"
+assert_cmd = "0.10"
+predicates = "1"
+pnet_macros = "0.35.0"
