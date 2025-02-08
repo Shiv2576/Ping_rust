@@ -60,7 +60,7 @@ pub fn send_pings(
             } else {
                 Ok(0)
             } {
-                Err(e) => log::error!("failed to send ping to {:.?}: {}", *addr , e),
+                Err(e) => log::error!("failed to send ping to {:?}: {}", *addr , e),
                 _=> {}
             }
             *seen = false;
